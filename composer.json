@@ -1,0 +1,29 @@
+{
+    "name": "laravel/paginate-limit",
+    "autoload": {
+        "psr-4": {
+            "Amir\\PaginateLimit\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": ":Amir Fayazbakhsh",
+            "email": "afayazbakhsh1@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/pagination": "^10.28.0",
+        "illuminate/collections": "^10.28.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.23"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
